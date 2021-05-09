@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Bellies Boutique</title>
+  <link rel="stylesheet" href="../reset.css">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+  <link rel="stylesheet" href="../childPage/node_modules/bootstrap/scss/_carousel.scss">
+  <link rel="stylesheet" href="../childPage/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./carousel.css">
+
+  <style>
+    
+
+
+
+  </style>
+</head>
+
+<body>
+  <!-- navigation bar, search bar and logo -->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-white">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div id="navibar">
+          <ul class="navbar-nav mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">NEW</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" >CLOTHING</a>
+              <!-- sub menu -->
+                <ul class="main-nav-dropdown">
+                  <li class="child-link"><a href="#">DRESSES</a>
+                  <li class="child-link"><a href="#">TOPS</a></li>
+                  <li class="child-link"><a href="#">PANTS</a></li>
+                  <li class="child-link"><a href="#">SKIRTS</a></li>
+                  <li class="child-link"><a href="#">SHORTS</a></li>
+                  <li class="child-link"><a href="#">JEANS</a></li>
+                  <li class="child-link"><a href="#">OUTERWEAR</a></li>
+                  <li class="child-link"><a href="#">BRANDS</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" >LINEN</a>
+              <ul class="main-nav-dropdown">
+                <li class="child-link"><a href="#">DRESSES</a></li>
+                <li class="child-link"><a href="#">TOPS</a></li>
+                <li class="child-link"><a href="#">PANTS</a></li>
+                <li class="child-link"><a href="#">SKIRTS</a></li>
+                <li class="child-link"><a href="#">SHORTS</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ACCESSORIES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: #AC6252;">SALE</a>
+            </li>
+          </ul>
+        </div>
+
+          <!-- logo -->
+          <a class="navbar-brand mx-auto align-center" href="#">
+            <img src="../imgs/logo.jpg" class="navbar-brand-img" alt="logo">
+          </a>
+          <!-- search bar -->
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button">Go</button>
+              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            </span>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <!-- navigation for carousel slide page -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <!-- carousel slide first page -->
+        <div class="carousel-item active">
+          <img src="../imgs/Lucy-Henry-Hicks-DISSH-Header.jpg" alt="" class="bd-image">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>IMPALA WHITE LINEN</h1>
+              <p><a class="btn btn-lg btn-primary" href="#">EXPLORE NOW</a></p>
+            </div>
+          </div>
+        </div>
+        <!-- carousel slide second page -->
+        <div class="carousel-item">
+          <img src="../imgs/0.jpeg" alt="" class="bd-image">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Bellies Boutique</h1>
+              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <!-- carousel slide third page -->
+        <div class="carousel-item">
+          <img src="../imgs/LINEN-NEW.jpg" alt="" class="bd-image">
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>AMERIE WHITE LINEN RAGLAN TOP</h1>
+              <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container marketing">
+      <!-- START THE FEATURETTES -->
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">
+            winter linen collection
+          </h2>
+          <p class="lead">
+            EXPLORE NOW
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img src="../imgs/item-3.jpg"
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" alt="">
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">IMPALA WHITE LINEN MIDI DRESS</h2>
+          <span class="text-muted">100% Linen</span>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="../imgs/item-2.jpg"
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" alt="">
+          </svg>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">
+            ADELINE BLACK LINEN WIDE LEG PANT
+          </h2>
+          <span class="text-muted">COMPLETE THE LOOK</span>
+        </div>
+        <div class="col-md-5">
+          <img src="../imgs/item-1.jpg"
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" alt="">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>@2021 by Jed proudly created, contact me <a href="https://www.linkedin.com/in/jed-zhang/"
+          class="text-white">@LinkedIn</a>.</p>
+    </footer>
+  </main>
+</body>
+<script src="../childPage/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+
+</script>
+
+</html>
