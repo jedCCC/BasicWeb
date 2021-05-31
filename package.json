@@ -1,0 +1,22 @@
+{
+  "name": "myresume.github.io",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000m\u0000y\u0000R\u0000e\u0000s\u0000u\u0000m\u0000e\u0000.\u0000g\u0000i\u0000t\u0000h\u0000u\u0000b\u0000.\u0000i\u0000o\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedCCC/myResume.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jedCCC/myResume.github.io/issues"
+  },
+  "homepage": "https://github.com/jedCCC/myResume.github.io#readme",
+  "dependencies": {
+    "styled-component": "^2.8.0"
+  }
+}
